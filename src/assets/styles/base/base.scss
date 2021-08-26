@@ -1,0 +1,46 @@
+#root {
+  overflow: hidden;
+  height: 100vh;
+}
+
+:root {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'FreeSans', Helvetica, Arial, sans-serif;
+  color: $text-primary;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::selection,
+*::-moz-selection {
+  background-color: $select-bg;
+  color: $select-fg;
+}
+
+body {
+  overflow: hidden !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: $container-width;
+  height: 100%;
+  padding: 0 $container-padding;
+  margin: 0 auto;
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}

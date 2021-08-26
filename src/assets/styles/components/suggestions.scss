@@ -1,0 +1,95 @@
+.suggestions {
+  width: 100%;
+  max-width: 380px;
+  height: 100%;
+  padding: 10px 0;
+  border-left: 1px solid $border-clr-500;
+
+  &-container {
+    max-width: $suggestions-container-width;
+    margin-left: auto;
+  }
+
+  // Search form
+  &-search-form {
+    margin-bottom: 15px;
+
+    &__input {
+      width: 100%;
+      padding: 11px 16px 10px 45px;
+      border: 1px solid transparent;
+      border-radius: $radius;
+
+      background: url('../../icons/magnifying-glass.svg'), $search-input-bg;
+      background-size: 20px, cover;
+      background-position: center left 15px, center;
+      background-repeat: no-repeat;
+
+      &::placeholder {
+        color: $search-input-fg;
+        opacity: 1;
+      }
+
+      &:focus {
+        border: 1px solid $primary;
+      }
+    }
+  }
+
+  // News
+  &-news {
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: $radius-sm;
+    background-color: $dark-8;
+
+    &__title {
+      margin: 0 0 10px 16px;
+      font-size: 20px;
+    }
+
+    &-articles {
+      border-top: 1px solid $border-clr-500;
+      border-bottom: 1px solid $border-clr-500;
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 16px;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid $border-clr-500;
+      }
+
+      &__title {
+        max-width: 26ch;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        color: inherit;
+        transition: color 200ms ease;
+
+        &:focus-visible,
+        &:hover {
+          color: $primary;
+        }
+      }
+
+      &__img {
+        width: 72px;
+        height: 72px;
+      }
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    margin: 14px 0 5px 16px;
+    font-size: 15px;
+    text-decoration: none;
+    color: $primary;
+  }
+}

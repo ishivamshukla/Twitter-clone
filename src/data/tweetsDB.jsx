@@ -1,0 +1,73 @@
+import Jack from '../assets/images/profiles/jack.png';
+import ElonMusk from '../assets/images/profiles/elonmusk.png';
+
+const tweetsDB = [
+  {
+    id: 0,
+    avatar: Jack,
+    fullName: 'Jack',
+    username: 'jack',
+    text: 'just setting up my twttr',
+    comments: 324321,
+    retweets: 162814,
+    likes: 5654145,
+    shared: 208451,
+  },
+  {
+    id: 1,
+    avatar: ElonMusk,
+    fullName: 'Elon Musk',
+    username: 'elonmusk',
+    text: 'Twitter sucks 🥀',
+    comments: 3321,
+    retweets: 1814,
+    likes: 559815,
+    shared: 241,
+  },
+  {
+    id: 2,
+    avatar: ElonMusk,
+    fullName: 'Elon Musk',
+    username: 'elonmusk',
+    text: 'Flamethrowers sold out',
+    comments: 321,
+    retweets: 1614,
+    likes: 5640085,
+    shared: 2451,
+  },
+  {
+    id: 3,
+    avatar: ElonMusk,
+    fullName: 'Elon Musk',
+    username: 'elonmusk',
+    text: 'Can someone give me a ride to work tomorrow? I kind of sent my car to space...',
+    comments: 3321,
+    retweets: 1814,
+    likes: 56545,
+    shared: 251,
+  },
+  {
+    id: 4,
+    avatar: ElonMusk,
+    fullName: 'Elon Musk',
+    username: 'elonmusk',
+    text: 'Why is there no Flat Mars Society!?',
+    comments: 3321,
+    retweets: 11814,
+    likes: 55145,
+    shared: 2451,
+  },
+  {
+    id: 5,
+    avatar: ElonMusk,
+    fullName: 'Elon Musk',
+    username: 'elonmusk',
+    text: 'Doge',
+    comments: 321,
+    retweets: 1614,
+    likes: 56545,
+    shared: 201,
+  },
+];
+
+export default tweetsDB;

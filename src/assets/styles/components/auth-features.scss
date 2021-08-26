@@ -1,0 +1,11 @@
+.auth-features {
+  position: absolute;
+  left: 0;
+  width: 50vw;
+  height: 100vh;
+
+  &__img {
+    display: inline-block;
+    width: 100%;
+  }
+}

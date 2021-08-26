@@ -1,0 +1,40 @@
+// -- Colors --
+// - Main colors
+$black: #0f1419;
+$white: #ffffff;
+$dark-1: #17202a;
+$dark-2: #1c2733;
+$dark-3: #283340;
+$dark-4: #3a444c;
+$dark-5: #5b7083;
+$dark-6: #8899a6;
+$dark-7: #ebeef0;
+$dark-8: #f7f9fa;
+$primary: #1da1f2;
+$danger: #f4245e;
+// - Specific colors
+// -- Text
+$text-primary: $black;
+$text-secondary: $dark-5;
+// -- Border
+$border-clr-500: $dark-7;
+$border-clr-700: $dark-6;
+// -- Input
+$search-input-bg: $dark-7;
+$search-input-fg: $dark-5;
+// -- Selections
+$select-bg: $primary;
+$select-fg: $white;
+// -- Icons
+$like: $danger;
+
+// -- Sizes --
+// - Container
+$container-width: 1320px;
+$container-padding: 20px;
+// - Radius
+$radius-sm: 16px;
+$radius: 100px;
+// - Sidebar
+$sidebar-container-width: 85%;
+$suggestions-container-width: 90%;

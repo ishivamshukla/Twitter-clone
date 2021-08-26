@@ -1,0 +1,30 @@
+@use "sass:math";
+
+@keyframes glitch-anim {
+  $steps: 20;
+  @for $i from 0 through $steps {
+    #{percentage($i * math.div(1, $steps))} {
+      clip: rect(random(800) + px, 9999px, random(800) + px, 0);
+      transform: skew(math.div(random(100), 100) + deg);
+    }
+  }
+}
+
+@keyframes glitch-anim2 {
+  $steps: 20;
+  @for $i from 0 through $steps {
+    #{percentage($i * math.div(1, $steps))} {
+      clip: rect(random(900) + px, 9999px, random(800) + px, 0);
+      transform: skew(math.div(random(100), 100) + deg);
+    }
+  }
+}
+
+@keyframes glitch-skew {
+  $steps: 10;
+  @for $i from 0 through $steps {
+    #{percentage($i * math.div(1, $steps))} {
+      transform: skew((random(5) - 5) + deg);
+    }
+  }
+}
